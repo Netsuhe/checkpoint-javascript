@@ -11,7 +11,13 @@ var people = [
 // called `peoplesAges`.
 // Type your solution immediately below this line:
 
-
+function getAge(item, index){
+  var peoplesAges = [];
+  return peoplesAges;
+}
+function myFunction() {
+    document.getElementById("demo").innerHTML = people.map(getAge);
+}
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
